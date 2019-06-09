@@ -9,11 +9,18 @@ Thankfully, Static and Dynamic Maps on Mobile and Geocoder is still free. PlaceP
 
 ## Adding PlacePicker to your project
 
-Include the following dependencies in your app's build.gradle :
+Include the following dependencies in your top level build.gradle:
+```
+repositories {
+        ...
+        maven { url "https://jitpack.io" }
+    }
+```
+and this app's build.gradle :
 
 ```
 dependencies {
-  implementation 'com.sucho:placepicker:0.1.3-alpha'
+    implementation 'com.github.suchoX:PlacePicker:-SNAPSHOT'
 }
 ```
 
