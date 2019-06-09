@@ -20,6 +20,8 @@ and this app's build.gradle :
 
 ```
 dependencies {
+    ...
+    implementation 'com.google.android.gms:play-services-maps:16.1.0'
     implementation 'com.github.suchoX:PlacePicker:-SNAPSHOT'
 }
 ```
